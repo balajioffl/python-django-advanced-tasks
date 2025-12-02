@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    font-family: "Lora", sans-serif;
+    background-color: rgb(235, 249, 225);
+}
+
+.container {
+  max-width: 300px;
+  margin: 50px auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.upload-btn {
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 90%;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #016d01;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 98%;
+}
+
+button:hover {
+  background: #25a102;
+}
+
+.preview-box {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.preview-box img {
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #aaa;
+}
